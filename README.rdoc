@@ -1,3 +1,9 @@
 = ActsAsImageable
 
 This project rocks and uses MIT-LICENSE.
+
+= Methods
+
+```ruby
+generate acts_as_imageable:migration
+```
