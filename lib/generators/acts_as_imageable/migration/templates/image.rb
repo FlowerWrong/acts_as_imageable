@@ -7,7 +7,7 @@ module ActsAsImageable
 
     default_scope -> { order('created_at ASC') }
 
-    mount_uploader :image_name, ActsAsImageable::ImageUploader
+    # mount_uploader :image_name, ActsAsImageable::ImageUploader
 
     def self.uuid
       SecureRandom.urlsafe_base64(nil, false)
